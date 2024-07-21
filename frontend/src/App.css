@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Tahoma', sans-serif;
+}
+
+:root {
+  --dark: #233142;
+  --grey: #455d7a; 
+  --primary: #f95959;
+  --secondary: #e3e3e3;
+}

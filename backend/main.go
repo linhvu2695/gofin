@@ -7,9 +7,12 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func main() {
+func init() {
 	config.LoadEnv()
+	config.ConnectDB()
+}
 
+func main() {
 	r := gin.Default()
 
 	routes.InitializeRoutes(r)
